@@ -1,0 +1,51 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 200px;
+    font-size: 24px;
+    color: #f9faf8
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+
+ul {
+
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.header {
+
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.right-links {
+
+    margin-right: 200px;
+}
+
+.body {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
