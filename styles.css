@@ -5,7 +5,6 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif
 
 }
 
@@ -167,7 +166,36 @@ button {
 
 .sec4 {
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 200px;
     flex: 1;
+}
+.container-sec4 {
+
+    background-color: #3882F6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text-sec4 {
+
+    color:#f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.subtext-sec4 {
+
+    color:#e5e7eb;
+    font-size: 18px;
 }
 
 
